@@ -12,7 +12,7 @@ serde_json = { version = "1.0.117" }
 chrono = { version = "0.4.38" }
 
 # Tokio
-tokio = { version = "1.38.0"}
+tokio = { version = "1.38.0", features = ["full"] }
 
 # Webserver Stuff
 axum = { version = "0.7.5" }
